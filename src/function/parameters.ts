@@ -22,6 +22,7 @@ export const isUserSignedIn2 = (userId: string, username = 'NO NAME'): boolean =
 }
 
 // レストパラメーターを持つ関数の例
+// 可変長引数
 export const sumProductsPrice = (...productsPrice: number[]): number => {
   return productsPrice.reduce((prevTotal, productPrice) => {
     return prevTotal + productPrice

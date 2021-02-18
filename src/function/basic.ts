@@ -24,6 +24,7 @@ export const alwaysThrowError = (message: string): never => {
 
 // 呼び出しシグネチャ（省略記法）
 // この場合だとLogMessageという関数用の型を定義できる
+// 事前に定義しておくことで、毎回アノテーションする必要がなくなる
 type LogMessage = (message: string) => void
 export const logMessage5: LogMessage = (message) => {
   console.log('Function basic sample 5:', message)
