@@ -13,12 +13,18 @@
 
 // 「04.関数の型定義」のサンプルコード
 // import { logMessage4 } from './function/basic'
-import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/parameters'
+// import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/parameters'
 
 // logMessage4('Hello TypeScript!')
 // logMessage5('Hello Type Signature!')
-isUserSignedIn('ABC', 'jiro')
-isUserSignedIn('123')
-isUserSignedIn2('ABC')
-const sum = sumProductsPrice(1000, 2000, 100,200)
-console.log('Function parameters sample 5: Total price:', sum)
+// isUserSignedIn('ABC', 'jiro')
+// isUserSignedIn('123')
+// isUserSignedIn2('ABC')
+// const sum = sumProductsPrice(1000, 2000, 100,200)
+// console.log('Function parameters sample 5: Total price:', sum)
+
+// 「05.オブジェクトの型定義」のサンプルコード
+import objectSample from './object/object'
+// import typeAliasSample from './object/alias'
+objectSample()
+// typeAliasSample()
